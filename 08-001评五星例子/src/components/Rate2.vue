@@ -6,7 +6,6 @@
         <!-- <span @mouseover="mouseOver(num)" v-for="num in 5" :key="num">★</span> -->
         <span @click="onRate(num)" @mouseover="mouseOver(num)" v-for="num in 5" :key="num" >★</span>
       </span>
- 
     </div>
   </div>
 </template>
